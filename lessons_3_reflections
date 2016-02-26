@@ -3,3 +3,16 @@ So Others push changes to collaborate on your project or start a file others can
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Some other developer may have introduced changes that you may not want
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are like clone but used to copy a repository to another GitHub account.  Clone is to get a Github repository locally.  Branches are used locally so you changes and features development does not effect the main branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+you can work offline and then synch up later
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Using Pull Request on GitHub is a way to stage a branch to be reviewed by collaborators before merging with master
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Changes in a branch can be used to collaborate on before changes are merged with master.  A few more steps, but protects master or you breaking other folks.
+Updating master directly is easier and can be done on small programs with few developers.
